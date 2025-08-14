@@ -59,7 +59,7 @@ Tentu, ini adalah README yang dibuat berdasarkan file Jupyter Notebook yang Anda
 Klasifikasi Kandungan Formalin pada Mie Basah Menggunakan SVM
 Proyek ini bertujuan untuk mengklasifikasikan kandungan formalin dalam mie basah menggunakan data dari electronic nose (e-nose) yang diolah dengan algoritma Support Vector Machine (SVM). Model ini mampu mengkategorikan mie sebagai Aman, Tidak Sehat, atau Bahaya berdasarkan respons sensor terhadap aroma sampel.
 
-📁 Dataset
+## Dataset
 Data yang digunakan adalah hasil pembacaan enam sensor gas (TGS2600, TGS2602, TGS2611, TGS2610, TGS2620, dan TGS826) dari sampel mie basah yang diberi tiga konsentrasi formalin berbeda: 0 ppm, 15 ppm, dan 35 ppm.
 
 Deskripsi Fitur
@@ -80,7 +80,7 @@ Bahaya: Jika ppm = 35.
 Ekspor ke Spreadsheet
 <br>
 
-⚙️ Metodologi Proyek
+## Metodologi Proyek
 Proses analisis dan pemodelan dalam notebook ini mencakup langkah-langkah berikut:
 
 Pengumpulan Data: Data dari file-file .xls dengan konsentrasi formalin yang berbeda (0, 15, dan 35 ppm) digabungkan menjadi satu DataFrame tunggal.
@@ -113,7 +113,7 @@ Target prediksi adalah kolom Kategori.
 
 Model SVM dilatih menggunakan data latih.
 
-📈 Hasil dan Evaluasi
+## Hasil dan Evaluasi
 Model SVM yang dilatih menunjukkan performa yang sangat tinggi pada data uji, dengan keberhasilan klasifikasi yang sempurna.
 
 Matriks Kebingungan (Confusion Matrix)
