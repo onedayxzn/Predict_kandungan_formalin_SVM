@@ -20,6 +20,7 @@ Data yang digunakan adalah hasil pembacaan enam sensor gas (TGS2600, TGS2602, TG
   - Bahaya: Jika ppm = 35.
 
 <br>
+
 ## Metodelogi Proyek
 Proses analisis dan pemodelan dalam notebook ini mencakup langkah-langkah berikut:
 
